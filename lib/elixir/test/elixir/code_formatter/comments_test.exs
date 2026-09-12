@@ -69,10 +69,10 @@ defmodule Code.Formatter.CommentsTest do
 
       good = """
       # this is foo
-      # this is bar
-      # this is baz
       foo ++
+        # this is bar
         bar ++
+        # this is baz
         baz
       """
 
